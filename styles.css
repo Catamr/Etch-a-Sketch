@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #feecd3;
+} 
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 800px;
+    background-color: #fff7ed;
+}
+
+.celBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 5px;
+}
+
+.row{
+    display: flex;
+    gap: 5px;
+}
+
+.cel {
+    display: flex;
+    background-color: #ffd6a7;
+    border-radius: 0.25rem;
+    flex: 1;
+    aspect-ratio: 1/1;
+}
